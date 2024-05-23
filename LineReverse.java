@@ -24,7 +24,7 @@ try {
 }
 public static void main(String[] args) throws IOException { 
   File inputFile = new File("DataFile.txt"); 
-  File outputFile = new File("RevDataFile.txt");
+  File outputFile = new File("ReverseDataFile.txt");
    
   FileReader in = new FileReader(inputFile);
   FileWriter out = new FileWriter(outputFile);
